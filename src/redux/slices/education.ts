@@ -39,7 +39,7 @@ export const getEducation = createAsyncThunk("skill/fetching" , async ({active =
   const params = {
     search,
     page:active,
-    limit : 12
+    limit : 20
   }  
   const {data} = await request.get("education" , {params})
   return data

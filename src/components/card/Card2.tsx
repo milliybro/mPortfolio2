@@ -28,12 +28,11 @@ const Card2 = ({_id , name , level , user , description} : EducationIntercafe) =
     <Card
       hoverable
     >
-      <p className={_id}>@{user?.username} anynomous</p>
+      <p className={_id} style={{color: "red"}}>@{user?.username} anynomous</p>
       <p className={_id}>Name Work: {name}</p>
       <p className={_id}>Level : {level}</p>
-      <p className={_id}>{description}</p>
+      <h5 className={_id}>{description}</h5>
 
-      {/* <Meta title={`Name : ${name}`} description={`Description : ${description}...`} /> */}
     </Card>
   )
 }
