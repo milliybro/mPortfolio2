@@ -52,9 +52,23 @@
 #search{
   input{
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     font-size: 20px;
-    margin-bottom:20px ; 
+    margin-top: 2px;
+    // margin-bottom:20px ; 
     border: 1px solid black; 
   }
+}
+
+.search-container{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+margin-top: 20px;
+margin-bottom: 20px;
+border-radius: 20px !important;
+h1{
+  font-size: 20px;
+  margin-top: 10px;
+}
 }

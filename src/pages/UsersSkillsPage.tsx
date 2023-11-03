@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Card1 from "../components/card/Card";
 import { useAppDispatch, useAppSelector } from "../redux/hooks"
 
-import {Spin} from "antd"
+import {Spin, Button} from "antd"
 import { getSkills } from "../redux/slices/skills";
 
 import "./UsersSkillsPage.scss"
@@ -36,7 +36,11 @@ const UsersSkillsPage = () => {
       <section id="search">
         <div className="container">
           <div className="search-container">
-            <h1>Skills ({total})</h1>
+            <h1>Skills</h1>
+            <input onChange={SerachSkills} type="text" placeholder="Search..." />
+            <Button type="dashed" danger>
+      +
+    </Button>
           </div>
         </div>
       </section>  

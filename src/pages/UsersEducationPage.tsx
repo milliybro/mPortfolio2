@@ -36,7 +36,7 @@ const UsersEducationPage = () => {
       <section id="search">
         <div className="container">
           <div className="search-container">
-            <h1>Education ({total})</h1>
+            <input onChange={SearchEducations} type="text" placeholder="Search..." />
           </div>
         </div>
       </section>  

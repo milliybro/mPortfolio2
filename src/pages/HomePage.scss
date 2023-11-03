@@ -207,5 +207,14 @@ body {
 }
 
 .ant-card{
-  background-color: #ffc700 !important;
+  background-color: #fff !important;
+  width: 100% !important;
+  .percent{
+    display: flex;
+  }
+  p{
+    font-size: 20px;
+  width: 100% !important;
+
+  }
 }
